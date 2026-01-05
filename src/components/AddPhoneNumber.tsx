@@ -43,7 +43,7 @@ export function AddPhoneNumber({ onAdd }: AddPhoneNumberProps) {
 
   return (
     <form onSubmit={handleSubmit} className="bg-white rounded-lg shadow-md p-6 mb-6">
-      <h2 className="text-xl font-semibold mb-4 text-gray-800">הוסף מספר טלפון</h2>
+      <h2 className="text-xl font-semibold mb-4 text-gray-800">הוסף איש קשר</h2>
 
       {error && (
         <div className="mb-4 p-3 bg-red-50 border border-red-200 text-red-700 rounded-md text-sm">
