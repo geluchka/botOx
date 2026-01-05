@@ -11,7 +11,6 @@ export function AddPhoneNumber({ onAdd }: AddPhoneNumberProps) {
   const [name, setName] = useState('');
   const [isAdding, setIsAdding] = useState(false);
   const [error, setError] = useState('');
-  const [role, setRole] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
