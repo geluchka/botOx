@@ -51,7 +51,7 @@ export function MessageButtons({ selectedPhoneNumber, onSendMessage }: MessageBu
           <GraduationCap size={32} />
           <span className="font-semibold text-lg">כיתה</span>
           <span className="text-xs text-center opacity-90">
-            {sending === 'class' ? 'שולח...' : '"הכיתה ששריינת מוכנה"'}
+            {sending === 'class' ? 'שולח' : '"הכיתה ששריינת מוכנה..."'}
           </span>
         </button>
 
