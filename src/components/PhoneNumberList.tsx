@@ -21,7 +21,7 @@ export function PhoneNumberList({ phoneNumbers, selectedId, onSelect, onDelete }
 
   return (
     <div className="bg-white rounded-lg shadow-md p-6">
-      <h2 className="text-xl font-semibold mb-4 text-gray-800">מספרי טלפון</h2>
+      <h2 className="text-xl font-semibold mb-4 text-gray-800">אנשי קשר</h2>
       <div className="space-y-2">
         {phoneNumbers.map((contact) => (
           <div
