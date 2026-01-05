@@ -39,7 +39,7 @@ export function MessageButtons({ selectedPhoneNumber, onSendMessage }: MessageBu
           <Shirt size={32} />
           <span className="font-semibold text-lg">כביסה</span>
           <span className="text-xs text-center opacity-90">
-            {sending === 'laundry' ? 'שולח...' : '"הכביסה שלך מוכנה"'}
+            {sending === 'laundry' ? 'שולח' : '"הכביסה שלך מוכנה..."'}
           </span>
         </button>
 
