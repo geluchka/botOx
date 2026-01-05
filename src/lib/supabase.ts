@@ -10,5 +10,4 @@ export interface PhoneNumber {
   phone_number: string;
   name: string;
   created_at: string;
-  role: boolean;
 }
