@@ -27,7 +27,7 @@ export function MessageButtons({ selectedPhoneNumber, onSendMessage }: MessageBu
         <p className="text-sm text-gray-500 mb-4">בחר מספר טלפון לשליחת הודעה</p>
       )}
       {selectedPhoneNumber && (
-        <p className="text-sm text-green-600 mb-4">מוכן לשלוח להודעה למספר שנבחר</p>
+        <p className="text-sm text-green-600 mb-4">מוכן לשלוח הודעה למספר שנבחר</p>
       )}
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
