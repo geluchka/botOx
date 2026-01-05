@@ -39,7 +39,7 @@ export function MessageButtons({ selectedPhoneNumber, onSendMessage }: MessageBu
           <Shirt size={32} />
           <span className="font-semibold text-lg">כביסה</span>
           <span className="text-xs text-center opacity-90">
-            {sending === 'laundry' ? 'שולח' : '"הכביסה שלך מוכנה..."'}
+            {sending === 'laundry' ? 'שולח' : '"הכביסה שלך מוכנה"'}
           </span>
         </button>
 
@@ -51,7 +51,7 @@ export function MessageButtons({ selectedPhoneNumber, onSendMessage }: MessageBu
           <GraduationCap size={32} />
           <span className="font-semibold text-lg">כיתה</span>
           <span className="text-xs text-center opacity-90">
-            {sending === 'class' ? 'שולח' : '"הכיתה ששריינת מוכנה..."'}
+            {sending === 'class' ? 'שולח' : '"הכיתה ששריינת מוכנה"'}
           </span>
         </button>
 
@@ -63,7 +63,7 @@ export function MessageButtons({ selectedPhoneNumber, onSendMessage }: MessageBu
           <ClipboardList size={32} />
           <span className="font-semibold text-lg">מטלה</span>
           <span className="text-xs text-center opacity-90">
-            {sending === 'task' ? 'שולח' : '"יש לך מטלה חדשה..."'}
+            {sending === 'task' ? 'שולח' : '"יש לך מטלה חדשה"'}
           </span>
         </button>
       </div>
