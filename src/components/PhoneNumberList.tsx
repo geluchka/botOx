@@ -49,7 +49,6 @@ export function PhoneNumberList({ phoneNumbers, selectedId, onSelect, onDelete }
                   )}
                 </div>
                 <p className="text-sm text-gray-600">{contact.phone_number}</p>
-                
               </div>
               <button
                 onClick={(e) => {
