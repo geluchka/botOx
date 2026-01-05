@@ -63,7 +63,7 @@ export function MessageButtons({ selectedPhoneNumber, onSendMessage }: MessageBu
           <ClipboardList size={32} />
           <span className="font-semibold text-lg">מטלה</span>
           <span className="text-xs text-center opacity-90">
-            {sending === 'task' ? 'שולח' : '"יש לך מטלה חדשה"'}
+            {sending === 'task' ? 'שולח...' : '"יש לך מטלה חדשה"'}
           </span>
         </button>
       </div>
